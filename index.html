@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudkhet - Golden Tiger Meme Token</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(135deg, #FF9900, #FFCC66);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .content {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 30px;
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+            margin: 20px;
+            width: 100%;
+        }
+
+        .token-stats {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 30px;
+            background-color: #FFF3E0;
+            padding: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+        }
+
+        .stat {
+            text-align: center;
+            padding: 10px 20px;
+        }
+
+        .stat h3 {
+            color: #FF6600;
+            font-weight: bold;
+            margin-bottom: 8px;
+        }
+
+        .links-section {
+            margin-top: 30px;
+            display: grid;
+            gap: 30px;
+        }
+
+        .social-links, .trading-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+            background-color: #FFF3E0;
+            border-radius: 15px;
+        }
+
+        .section-title {
+            color: #FF6600;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+
+        .link-item {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-decoration: none;
+            color: #FF6600;
+            padding: 10px;
+            border-radius: 10px;
+            transition: transform 0.2s;
+        }
+
+        .link-item:hover {
+            transform: translateY(-5px);
+            background-color: rgba(255, 102, 0, 0.1);
+        }
+
+        .link-item i {
+            font-size: 24px;
+            margin-bottom: 8px;
+        }
+
+        .link-item img {
+            width: 40px;
+            height: 40px;
+            margin-bottom: 8px;
+            object-fit: contain;
+        }
+
+        
+
+        .roadmap {
+            display: flex;
+            gap: 20px;
+            overflow-x: auto;
+            padding: 15px;
+            scroll-snap-type: x mandatory;
+        }
+
+        .roadmap::-webkit-scrollbar {
+            height: 8px;
+        }
+
+        .roadmap::-webkit-scrollbar-thumb {
+            background: #FF6600;
+            border-radius: 10px;
+        }
+
+        .roadmap-item {
+            flex: 0 0 auto;
+            min-width: 250px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: left;
+            scroll-snap-align: start;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+        }
+
+        .roadmap-item h3 {
+            color: #FF6600;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .roadmap-item ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        .roadmap-item li {
+            margin-bottom: 8px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        .roadmap-item li:before {
+            content: "•";
+            color: #FF6600;
+            position: absolute;
+            left: 0;
+        }
+        p {
+  word-wrap: break-word; /* ตัดคำเพื่อให้พอดีกับพื้นที่ */
+  width: 200px; /* กำหนดความกว้าง */
+}
+.roadmap-item h3 {
+    font-size: 20px; /* ปรับขนาดที่ต้องการ */
+}
+.roadmap-item ul li {
+    font-size: 15px; /* ปรับขนาดตัวอักษรที่ต้องการ */
+}
+       .completed-task {
+            color: green;
+            font-weight: bold;
+        }
+        .completed-task::before {
+            content: '✔ ';
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <img src="https://www.dropbox.com/scl/fi/1vgbdcx8zci23ajtswta4/20241123_143056.jpg?rlkey=q4bwtkqvbqpnhl0pyw0f38anw&st=5l3gj917&dl=1" alt="Sudkhet Logo" class="mx-auto rounded-full shadow-lg">
+        
+        <h1 class="text-3xl font-bold mt-6 text-[#FF6600]">Sudkhet</h1>
+        <h4 class="text-xl mt-2 text-gray-700">Golden Tiger Meme Token</p>
+
+        <div class="token-stats">
+            <div class="stat">
+                <h3>Contract Address</h3>
+                <p class="font-bold">CiAui6pJF7pSnevH52bnHpGysqjoz6EKtKsmTtLKpump</p>
+            </div>
+            
+            
+        </div>
+     <div class="mt-8 bg-[#FFF3E0] p-6 rounded-2xl">
+            <h2 class="section-title">About Sudkhet</h2>
+            <h3 class="text-gray-700 leading-relaxed">
+                Ultra-rare Golden Tiger from Tiger PARK Pattaya. A unique genetic variant found only in captivity, representing one of the world's most extraordinary wildlife phenomena.
+            </p>
+        </div>
+        <div class="links-section">
+            <div>
+                <h2 class="section-title">Social Media</h2>
+                <div class="social-links">
+                    <a href="https://x.com/Sudkhetsolcto" class="link-item" target="_blank">
+                     
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="X Logo" style="width: 30px; height: 30px;">
+    X
+</a>
+
+<a href="https://t.me/sudkhetsolcto" class="link-item" target="_blank">
+    <i class="fab fa-telegram"></i> 
+    Telegram
+</a>
+                </div>
+            </div>
+
+            <div>
+                <h2 class="section-title">Trading</h2>
+                <div class="trading-links">
+                    <a href="https://raydium.io/swap/?inputMint=sol&outputMint=CiAui6pJF7pSnevH52bnHpGysqjoz6EKtKsmTtLKpump" class="link-item" target="_blank">
+                        <img src="https://raydium.io/favicon.ico" alt="Raydium">
+                        Raydium
+                    </a>
+                    <a href="https://dexscreener.com/solana/3V8P7nR5HiCcSevKcwt2vV9MKnsuPnEo7bEeBxthyj8B" class="link-item" target="_blank">
+                 <img src="https://dexscreener.com/favicon.ico" alt="DEX Scanner">
+                        DEX Scanner
+                    </a>
+                </div>
+            </div>
+        </div>
+
+   
+
+        <div class="roadmap-container">
+            <h2 class="section-title">Roadmap</h2>
+            <div class="roadmap">
+           <div class="roadmap-item">
+    <h3>Phase 1: Foundation</h3>
+    <ul>
+        <li class="completed-task">Community Building</li>
+        <li class="completed-task">Launch Telegram Channel</li>
+        <li class="completed-task">Launch X Channel</li>
+        <li class="completed-task">Create Official Website</li>
+    </ul>
+</div>
+<div class="roadmap-item">
+    <h3>Phase 2: Growth</h3>
+    <ul>
+        <li class="completed-task">Promote the Token</li>
+        <li>Collaborate with Top Influencers</li>
+        <li>Update Information on DexScanner</li>
+    </ul>
+</div>
+<div class="roadmap-item">
+    <h3>Phase 3: Expansion</h3>
+    <ul>
+        <li>Host Community Events</li>
+        <li>List the Token on CEX (Centralized Exchange)</li>
+        <li>Raise Funds from the Community to Donate to Zoos</li>
+    </ul>
+</div>
+                    
+                </div>
+                </div> 
+                    
+<div class="mt-8 bg-[#FFF3E0] p-6 rounded-2xl">
+            <h2 class="section-title">CTO Sudkhet</h2>
+            <h3 class="text-gray-700 leading-relaxed">
+            <li>    The ultimate meme coin of this era, powered by the true strength of its community! Inspired by fun and uniqueness, Suea Sudkhet was created under the leadership of a dedicated CTO and a passionate community that supports and drives the coin to the top of the crypto world. Suea Sudkhet isn’t just a coin—it’s a symbol of unity, creativity, and belief in the power of community. </li>
+                  <img src="https://www.dropbox.com/scl/fi/j6xqy7nwgyrylcnsxv6oy/20241123_154206.jpg?rlkey=8j216jeqtyudre4s2apen9ufz&st=7f1sjbpr&dl=1" 
+        
+<li>
+Join us today!
+Because we believe that everyone is a key force that will make Suea Sudkhet roar across the world! </li>
+
+
+            
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
